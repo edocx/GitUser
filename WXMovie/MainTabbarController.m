@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    self.view.backgroundColor = [UIColor blackColor];
 //    self.viewControllers;
     
     //     UI_APPEARANCE_SELECTOR   每一个导航栏都调用设置图片的方法
