@@ -20,7 +20,6 @@
 		882D1FAB1BABDF1A006EAC42 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 882D1F251BABDF1A006EAC42 /* play@2x.png */; };
 		882D1FAC1BABDF1A006EAC42 /* point.png in Resources */ = {isa = PBXBuildFile; fileRef = 882D1F261BABDF1A006EAC42 /* point.png */; };
 		882D1FAD1BABDF1A006EAC42 /* point@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 882D1F271BABDF1A006EAC42 /* point@2x.png */; };
-		882D1FAE1BABDF1A006EAC42 /* progress_blue_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 882D1F281BABDF1A006EAC42 /* progress_blue_bar.png */; };
 		882D1FAF1BABDF1A006EAC42 /* progress_blue_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 882D1F291BABDF1A006EAC42 /* progress_blue_bar@2x.png */; };
 		882D1FB01BABDF1A006EAC42 /* underline_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 882D1F2A1BABDF1A006EAC42 /* underline_shadow.png */; };
 		882D1FB11BABDF1A006EAC42 /* underline_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 882D1F2B1BABDF1A006EAC42 /* underline_shadow@2x.png */; };
@@ -240,7 +239,6 @@
 		882D1F251BABDF1A006EAC42 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
 		882D1F261BABDF1A006EAC42 /* point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point.png; sourceTree = "<group>"; };
 		882D1F271BABDF1A006EAC42 /* point@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "point@2x.png"; sourceTree = "<group>"; };
-		882D1F281BABDF1A006EAC42 /* progress_blue_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progress_blue_bar.png; sourceTree = "<group>"; };
 		882D1F291BABDF1A006EAC42 /* progress_blue_bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress_blue_bar@2x.png"; sourceTree = "<group>"; };
 		882D1F2A1BABDF1A006EAC42 /* underline_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = underline_shadow.png; sourceTree = "<group>"; };
 		882D1F2B1BABDF1A006EAC42 /* underline_shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "underline_shadow@2x.png"; sourceTree = "<group>"; };
@@ -572,7 +570,6 @@
 				882D1F251BABDF1A006EAC42 /* play@2x.png */,
 				882D1F261BABDF1A006EAC42 /* point.png */,
 				882D1F271BABDF1A006EAC42 /* point@2x.png */,
-				882D1F281BABDF1A006EAC42 /* progress_blue_bar.png */,
 				882D1F291BABDF1A006EAC42 /* progress_blue_bar@2x.png */,
 				882D1F2A1BABDF1A006EAC42 /* underline_shadow.png */,
 				882D1F2B1BABDF1A006EAC42 /* underline_shadow@2x.png */,
@@ -1169,7 +1166,7 @@
 				TargetAttributes = {
 					884E26361B9D656B003C96BC = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = 8YAMPXWGL2;
+						DevelopmentTeam = V6EGB7EJSP;
 					};
 					884E264F1B9D656B003C96BC = {
 						CreatedOnToolsVersion = 6.4;
@@ -1335,7 +1332,6 @@
 				882D1FD91BABDF1A006EAC42 /* 19@2x.png in Resources */,
 				884A65F11B9DCE69001422EB /* 豆瓣api.rtf in Resources */,
 				882D1FB21BABDF1A006EAC42 /* volume.png in Resources */,
-				882D1FAE1BABDF1A006EAC42 /* progress_blue_bar.png in Resources */,
 				882D1FCF1BABDF1A006EAC42 /* yellow@2x.png in Resources */,
 				882D1FED1BABDF1A006EAC42 /* msg_new.png in Resources */,
 				8852E5CF1BA862E800996366 /* baidu.html in Resources */,
@@ -1548,6 +1544,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = V6EGB7EJSP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WXMovie/Header.pch";
 				INFOPLIST_FILE = WXMovie/Info.plist;
@@ -1565,6 +1562,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = V6EGB7EJSP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WXMovie/Header.pch";
 				INFOPLIST_FILE = WXMovie/Info.plist;
